@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #1565C0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    margin-bottom: 12px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+#searchInput {
+    width: 220px;
+    max-width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#searchButton,
+#locationButton {
+
+    padding: 10px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    color: white;
+
+    cursor: pointer;
+}
+
+#searchButton {
+
+    background: #2E7D32;
+}
+
+#locationButton {
+
+    background: #D84315;
+    margin-left: 6px;
+}
+
+#searchButton:hover {
+
+    background: #1B5E20;
+}
+
+#locationButton:hover {
+
+    background: #BF360C;
+}
+
+#citySelect {
+
+    width: 260px;
+    max-width: 90%;
+    margin-top: 10px;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+#info {
+
+    background: white;
+
+    margin: 15px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+
+#info h2 {
+
+    color: #1565C0;
+
+    margin-bottom: 10px;
+}
+
+#info p {
+
+    line-height: 1.8;
+}
+
+#map {
+
+    width: calc(100% - 30px);
+
+    height: 450px;
+
+    margin: 15px;
+
+    border-radius: 12px;
+}
