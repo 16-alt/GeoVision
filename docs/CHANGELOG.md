@@ -1,19 +1,19 @@
 # GeoVision Changelog
 
-## v0.6 Stable
+## v0.7
 
-### Added
+- Created GeoVision Engine.
+- Added Core structure.
+- Added Modules structure.
+- Prepared project architecture for modular development.
 
-- Interactive map
-- OpenStreetMap
-- City search
-- City selector
-- GPS location
-- City information panel
-- Marker support
+## v0.6
 
----
-
-## Next
-
-v0.7 Architecture
+- Initial Stable Release.
+- Interactive map added.
+- City database added.
+- Search system added.
+- GPS location support added.
+- Git integration completed.
+- GitHub repository created.
+- SSH authentication configured.
