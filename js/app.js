@@ -10,4 +10,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
     GeoVision.init();
 
+    document
+        .getElementById("locationButton")
+        .addEventListener("click", () => {
+
+            GeoVisionLocation.locate();
+
+        });
+
 });
